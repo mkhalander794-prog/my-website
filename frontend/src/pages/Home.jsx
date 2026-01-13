@@ -168,6 +168,38 @@ const Home = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {productCategories.map((category) => {
               const Icon = iconMap[category.icon];
+              
+              // Special handling for Clothing category with images
+              if (category.images && category.images.length > 0) {
+                return (
+                  <Card key={category.id} className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-green-500 col-span-full lg:col-span-2">
+                    <CardHeader>
+                      <div className="flex items-center space-x-3 mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center">
+                          <Icon className="w-6 h-6 text-white" />
+                        </div>
+                        <CardTitle className="text-2xl">{category.name}</CardTitle>
+                      </div>
+                      <CardDescription className="text-base">{category.description}</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="grid grid-cols-3 gap-3">
+                        {category.images.map((image, index) => (
+                          <div key={index} className="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+                            <img 
+                              src={image} 
+                              alt={`${category.name} ${index + 1}`}
+                              className="w-full h-48 object-cover hover:scale-110 transition-transform duration-500"
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    </CardContent>
+                  </Card>
+                );
+              }
+              
+              // Regular category cards
               return (
                 <Card key={category.id} className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-green-500">
                   <CardHeader>
