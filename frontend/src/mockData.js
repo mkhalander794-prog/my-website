@@ -10,7 +10,11 @@ export const businessInfo = {
   plusCode: "WHQ9+GR, Shivamogga, Karnataka",
   landmark: "Near Dr. Ambedkar Circle (Jail Circle)",
   branches: 3,
-  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.2!2d76.76!3d13.93!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbba95a8053e795%3A0xf3510e655c6b6de1!2sGorur%20Mart%20Jail%20Road!5e0!3m2!1sen!2sin!4v1234567890"
+  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.2!2d76.76!3d13.93!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbba95a8053e795%3A0xf3510e655c6b6de1!2sGorur%20Mart%20Jail%20Road!5e0!3m2!1sen!2sin!4v1234567890",
+  storeImages: [
+    "https://customer-assets.emergentagent.com/job_8d6d55fe-56b2-43e9-a6c9-1786d9a4e219/artifacts/rjfnvvqt_WhatsApp%20Image%202026-01-13%20at%2012.11.43%20PM%20%282%29.jpeg",
+    "https://customer-assets.emergentagent.com/job_8d6d55fe-56b2-43e9-a6c9-1786d9a4e219/artifacts/cygkhs8e_WhatsApp%20Image%202026-01-13%20at%2012.11.43%20PM.jpeg"
+  ]
 };
 
 export const aboutContent = {
