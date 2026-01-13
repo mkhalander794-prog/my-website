@@ -54,31 +54,36 @@ export const productCategories = [
     id: 3,
     name: "Home Décor",
     description: "Beautiful items to enhance your living space",
-    icon: "Home"
+    icon: "Home",
+    image: null
   },
   {
     id: 4,
     name: "Footwear",
     description: "Comfortable and stylish shoes for all occasions",
-    icon: "Footprints"
+    icon: "Footprints",
+    image: null
   },
   {
     id: 5,
     name: "Stationery",
     description: "School and office supplies at great prices",
-    icon: "PenTool"
+    icon: "PenTool",
+    image: null
   },
   {
     id: 6,
     name: "Fragrances",
     description: "Premium perfumes and deodorants",
-    icon: "Sparkles"
+    icon: "Sparkles",
+    image: null
   },
   {
     id: 7,
     name: "Household Essentials",
     description: "Cleaning supplies, kitchen items, and more",
-    icon: "Package"
+    icon: "Package",
+    image: null
   }
 ];
 
