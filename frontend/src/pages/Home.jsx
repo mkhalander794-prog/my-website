@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, MapPin, Star, ShoppingBasket, Shirt, Home as HomeIcon, Footprints, PenTool, Sparkles, Package, Tag, Users, Award, CheckCircle2 } from 'lucide-react';
+import { Phone, MapPin, Star, ShoppingBasket, Shirt, Home as HomeIcon, Footprints, PenTool, Sparkles, Package, Tag, Users, Award, CheckCircle2, Instagram } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
