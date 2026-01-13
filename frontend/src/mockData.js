@@ -84,7 +84,10 @@ export const productCategories = [
     name: "Household Essentials",
     description: "Cleaning supplies, kitchen items, and more",
     icon: "Package",
-    image: null
+    images: [
+      "https://customer-assets.emergentagent.com/job_8d6d55fe-56b2-43e9-a6c9-1786d9a4e219/artifacts/4wlxr3pu_WhatsApp%20Image%202026-01-13%20at%2012.33.15%20PM%20%281%29.jpeg",
+      "https://customer-assets.emergentagent.com/job_8d6d55fe-56b2-43e9-a6c9-1786d9a4e219/artifacts/v23e6suz_WhatsApp%20Image%202026-01-13%20at%2012.33.15%20PM.jpeg"
+    ]
   }
 ];
 
