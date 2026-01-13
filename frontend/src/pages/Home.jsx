@@ -97,11 +97,24 @@ const Home = () => {
             </Button>
           </div>
 
+          {/* Store Images */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 max-w-5xl mx-auto">
+            {businessInfo.storeImages.map((image, index) => (
+              <div key={index} className="rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300">
+                <img 
+                  src={image} 
+                  alt={`Gorur Mart Store View ${index + 1}`}
+                  className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            ))}
+          </div>
+
           {/* Trust Indicators */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-4xl mx-auto">
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
               <Award className="w-12 h-12 text-orange-500 mx-auto mb-3" />
-              <h3 className="font-bold text-2xl text-gray-900">4.8★</h3>
+              <h3 className="font-bold text-2xl text-gray-900">4.8⭐</h3>
               <p className="text-gray-600">Top Rated</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
