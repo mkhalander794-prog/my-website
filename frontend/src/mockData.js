@@ -36,13 +36,19 @@ export const productCategories = [
     id: 1,
     name: "Groceries",
     description: "Fresh vegetables, fruits, rice, pulses, and daily essentials",
-    icon: "ShoppingBasket"
+    icon: "ShoppingBasket",
+    image: null
   },
   {
     id: 2,
     name: "Clothing",
     description: "Affordable fashion for the entire family",
-    icon: "Shirt"
+    icon: "Shirt",
+    images: [
+      "https://customer-assets.emergentagent.com/job_8d6d55fe-56b2-43e9-a6c9-1786d9a4e219/artifacts/em67l4j7_WhatsApp%20Image%202026-01-13%20at%2012.16.23%20PM%20%281%29.jpeg",
+      "https://customer-assets.emergentagent.com/job_8d6d55fe-56b2-43e9-a6c9-1786d9a4e219/artifacts/pjaicgyw_WhatsApp%20Image%202026-01-13%20at%2012.16.21%20PM.jpeg",
+      "https://customer-assets.emergentagent.com/job_8d6d55fe-56b2-43e9-a6c9-1786d9a4e219/artifacts/4wf3dxjp_WhatsApp%20Image%202026-01-13%20at%2012.16.23%20PM%20%282%29.jpeg"
+    ]
   },
   {
     id: 3,
