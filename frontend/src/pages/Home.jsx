@@ -384,11 +384,21 @@ const Home = () => {
             <div>
               <h3 className="text-2xl font-bold text-green-400 mb-4">{businessInfo.name}</h3>
               <p className="text-gray-300 mb-4">{businessInfo.tagline}</p>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 mb-4">
                 <Star className="w-5 h-5 fill-orange-500 text-orange-500" />
                 <span className="font-semibold">{businessInfo.rating}</span>
                 <span className="text-gray-400">({businessInfo.totalReviews} reviews)</span>
               </div>
+              {/* Instagram Link */}
+              <a 
+                href={businessInfo.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-4 py-2 rounded-lg transition-all duration-300 hover:scale-105"
+              >
+                <Instagram className="w-5 h-5" />
+                <span>Follow us on Instagram</span>
+              </a>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4 text-orange-400">Quick Links</h4>
